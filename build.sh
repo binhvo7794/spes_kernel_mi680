@@ -6,7 +6,7 @@ SECONDS=0 # builtin bash timer
 ZIPNAME="spes-$(date '+%Y%m%d-%H%M').zip"
 TC_DIR="$(pwd)/tc/clang-r450784e"
 AK3_DIR="$(pwd)/android/AnyKernel3"
-DEFCONFIG="vendor/spes-perf_defconfig"
+DEFCONFIG="vendor/lxc_defconfig"
 
 export PATH="$TC_DIR/bin:$PATH"
 
